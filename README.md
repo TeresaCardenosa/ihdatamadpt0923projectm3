@@ -17,7 +17,8 @@ The goal is to compete through Kaggle for predicting the price of diamonds based
 
 4.	**Scaler, yes but no**. In my case, most of the time there was no great difference in proportionality between the features, so applying the scaler or not did not make a big difference in the metrics.
 
-<iframe src="https://giphy.com/embed/lsBBHJ8BZAvzOH6Oba" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/MysticTV-mystic-cbbc-mystictv-lsBBHJ8BZAvzOH6Oba">via GIPHY</a></p>
+![](https://github.com/TeresaCardenosa/ihdatamadpt0923projectm3/blob/main/giphy.gif)
+
 ## Dataset diamonds, diamonds_test y sample_submission 
 
 First of all, to understand how the Kaggle competition works, we have the 00_data_review notebook. 
@@ -27,18 +28,18 @@ First of all, to understand how the Kaggle competition works, we have the 00_dat
 For the competition we use the diamonds dataset, saved in .csv format inside the /data folder. In the notebook we explore what the shape of this dataset is. A brief summary:
 
 40455 rows x 11 columns
-
-Price	40455 non-null	Int64
-Carat	40455 non-null	Float64
-City	40455 non-null	Object
-Depth	40455 non-null	Float64
-Table	40455 non-null	Float64
-X	    40455 non-null	Float64
-Y	    40455 non-null	Float64
-Z	    40455 non-null	Float64
-Cut	    40455 non-null	Object
-Color	40455 non-null	Object
-Clarity	40455 non-null	object
+ 
+| Price	| 40455 non-null |	Int64 |
+| Carat	| 40455 non-null |	Float64
+| City	| 40455 non-null |	Object
+| Depth	| 40455 non-null |	Float64
+| Table	| 40455 non-null |	Float64
+| X	    | 40455 non-null |	Float64
+| Y	    | 40455 non-null |	Float64
+| Z	    | 40455 non-null |	Float64
+| Cut	| 40455 non-null |	Object
+| Color	| 40455 non-null |	Object
+| Clarity | 40455 non-null | Object
 
 In the same notebook we also explore what is in diamonds_test: 13485 rows x 11 columns. It follows the same structure as the diamonds dataframe, without the Price column as it is the target. 
 
@@ -94,4 +95,5 @@ The rest of the notebook corresponds to the applications on the 09 dataframe of 
 7.	On some occasions, we will try running GridSearchCV to get the best metrics.  
 8.	If we decide to generate a new submission, we apply everything to the .csv of diamonds_test, save the new .csv inside the submission folder and note, after uploading it to Kaggle, the platform score.
 
-IMAGEN EJEMPLO 
+![](https://github.com/TeresaCardenosa/ihdatamadpt0923projectm3/blob/main/ejemplo.JPG)
+
