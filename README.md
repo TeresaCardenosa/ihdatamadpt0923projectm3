@@ -80,7 +80,8 @@ The rest of the notebook corresponds to the applications on the 09 dataframe of 
 3. Bagging Regressor (notebook 03_ML_BaggingRegressor) 
 4. XGBoost (notebook 04_ML_XGBoost) 
 5. Decision Tree Regressor (notebook 05_ML_DecisionTreeRegressor) 
-6. Gradient Boosting Regressor (notebook 06_ML_GradientBoostingRegressor) 
+6. Extra Trees Regressor (notebook 06_ML_ExtraTreesRegressor)
+7. Gradient Boosting Regressor (notebook 06_ML_GradientBoostingRegressor) 
 
 ## How are notebooks with models structured? 
 
