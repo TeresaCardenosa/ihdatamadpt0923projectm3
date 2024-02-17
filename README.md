@@ -30,16 +30,16 @@ For the competition we use the diamonds dataset, saved in .csv format inside the
 40455 rows x 11 columns
  
 | Price	| 40455 non-null |	Int64 |
-| Carat	| 40455 non-null |	Float64
-| City	| 40455 non-null |	Object
-| Depth	| 40455 non-null |	Float64
-| Table	| 40455 non-null |	Float64
-| X	    | 40455 non-null |	Float64
-| Y	    | 40455 non-null |	Float64
-| Z	    | 40455 non-null |	Float64
-| Cut	| 40455 non-null |	Object
-| Color	| 40455 non-null |	Object
-| Clarity | 40455 non-null | Object
+| Carat	| 40455 non-null |	Float64 |
+| City	| 40455 non-null |	Object |
+| Depth	| 40455 non-null |	Float64 |
+| Table	| 40455 non-null |	Float64 |
+| X	    | 40455 non-null |	Float64 |
+| Y	    | 40455 non-null |	Float64 |
+| Z	    | 40455 non-null |	Float64 |
+| Cut	| 40455 non-null |	Object |
+| Color	| 40455 non-null |	Object |
+| Clarity | 40455 non-null | Object |
 
 In the same notebook we also explore what is in diamonds_test: 13485 rows x 11 columns. It follows the same structure as the diamonds dataframe, without the Price column as it is the target. 
 
